@@ -443,16 +443,15 @@ h3{
 }
 .event-headding{
 	position: absolute;
-	margin-top: 50px;
-	text-align: center;
+	margin-top: 250px;
 	font-size: 90px;
 	color: rgb(255, 255, 255);
-	padding-left: 30px;
-    border-radius: 20%;
+	
 }
 .event-headding span{
-	color:#ee8425 ;
+ color: #f44949;
 }
+
 /*---------------------
   Conter
 -----------------------*/
@@ -2492,7 +2491,9 @@ h3{
 		position: relative;
 	}
 }
-
+h1{
+	color: white;
+}
 /* Small Mobile: 320px */
 
 @media only screen and (max-width: 479px) {
@@ -2503,12 +2504,12 @@ h3{
 	}
 	.event-headding{
 	position: absolute;
-	margin-top: 50px;
-	text-align: center;
-	font-size: 90px;
-	color: rgb(255, 255, 255);
+	 top:0px; 
+	
+	font-size: 50px;
+/*	color: rgb(255, 255, 255);
 	padding-left: 30px;
-    border-radius: 20%;
+    border-radius: 20%; */
 }
 	.newslatter-inner {
 		padding: 60px 20px 48px;
@@ -2554,3 +2555,4 @@ h3{
 		margin-left: 5px;
 	}
 }
+
